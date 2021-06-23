@@ -1,0 +1,1 @@
+This is a static website built with HTML5, JavaScript and CSS. The point of this project is to build a website for my dad's construction business to allow customers to contact him and view his portfolio. 
