@@ -15,5 +15,17 @@
 }
 
 h1 {
-  color: var(--dark-red-color);
+  color: var(--white-color);
+}
+
+h2 {
+  color: var(--white-color);
+}
+
+p {
+  color: var(--white-color);
+}
+
+.main-content {
+  background-color: #111111e0;
 }
