@@ -15,13 +15,14 @@
     <!-- TODO: change viewport -->
     <meta name="author" content="Scott Johnson">
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="main.js"></script>
 
   </head>
   <body>
-    <script type="text/javascript" src="main.js"></script>
-    <header>
+
+    <header >
       <nav>
-        <ul class="outer-nav">
+        <ul class="outer-nav" id="nav-id">
           <li class="nav-logo">
             <a href="#">Lancaster Home Design</a>
           </li>
@@ -43,11 +44,17 @@
       </nav>
     </header>
     <div class="hero-banner">
-      <h1>Lancaster Home Design</h1>
-      <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-      <div class="hero-buttons">
-        <button type="button" name="button">Contact Us</button>
-        <button type="button" name="button">View Projects</button>
+      <div class="center">
+        <h1>Lancaster Home Design</h1>
+        <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <div class="hero-buttons">
+          <a href="#" class="button">
+            Contact Us</a>
+          <a href="#" class="button second-button">
+            <span>Our Projects</span>
+          </a>
+
+        </div>
       </div>
 
       <!-- Have the contact button full and the other empty-->
