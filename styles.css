@@ -15,7 +15,8 @@
   --white-color: #f8f8f8;
   --grey-color: #eeeeee;
   --red-color: #ee0000;
-  --dark-red-color: #cc0000;
+  --dark-red-color: #b10000;
+  --alt-red-color: #c00000;
   --black-color: #111111;
   --primary-font: Knucklehead, 'Monserrat', sans-serif;
   --secondary-font: 'PT Serif', serif;
@@ -40,11 +41,11 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
-  margin-bottom: 24px;
+  font-size: 4.5rem;
   font-family: var(--primary-font);
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-weight: normal;
+  margin-bottom: 2%;
 }
 
 li {
@@ -101,6 +102,11 @@ p {
   color: var(--white-color);
 }
 
+.inner-nav a:hover {
+  color: var(--alt-red-color);
+  transition: 0.5s;
+}
+
 #Contact-Us-Nav {
   background-color: #00000096;
   border-radius: 6px;
@@ -124,6 +130,7 @@ p {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3%;
 }
 
 .hero-buttons {
@@ -163,6 +170,7 @@ p {
   top: 0;
   right: -20px;
   transition: 0.5s;
+  color: var(--alt-red-color);
 }
 
 .second-button:hover span {
@@ -174,8 +182,88 @@ p {
   right: 0;
 }
 
+.content {
+  padding: 0 90px;
+}
+
+.solid {
+  border-top: 3px solid var(--alt-red-color);
+  width: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
   max-width: 50rem;
+}
+
+.about-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  margin-bottom: 10%;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+  padding: 2%;
+  -ms-flex: 1;
+  /* IE 10 */
+  flex: 1;
+}
+
+.service img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.service h2 {
+  color: var(--dark-red-color);
+  text-align: left;
+}
+
+/* TODO: create media query that makes the flex box 1 0n 1 for services */
+.service p {
+  text-align: left;
+}
+
+.call-to-action {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.4)), url("photos/call-to-action.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.call-to-text h2 {
+  color: var(--white-color);
+}
+
+.call-to-text a {
+  margin-top: 10%;
+  padding: 20px 40px 20px 40px;
 }
