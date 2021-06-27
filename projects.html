@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://kit.fontawesome.com/5b56ed02ad.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/jpg" href="photos/favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lancaster Home Design</title>
+    <meta name="description" content="At Lancaster Home Design we believe....">
+    <!-- TODO: change description -->
+    <!-- TODO: change viewport -->
+    <meta name="author" content="Scott Johnson">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="main.js"></script>
+
+  </head>
+  <body>
+
+    <header >
+      <nav>
+        <ul class="outer-nav" id="nav-id">
+          <li class="nav-logo">
+            <a href="#"><img class="header-logo" src="photos/white-logo.png" alt=""></a>
+          </li>
+          <li>
+            <ul class="inner-nav">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="">Previous Projects</a>
+              </li>
+              <li id="Contact-Us-Nav">
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+    <div class="new-hero-banner hero-banner">
+      <div class="center">
+
+        <h1>Previous Projects</h1>
+        <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+
+      </div>
+
+    </div>
+    <div class="content">
+      <ul class="filters">
+        <li>
+          <button class="project-filters" id="all" type="button" onclick="hideProjects('all')" name="button">All Works</button>
+        </li>
+        <li>
+          <button class="project-filters" id="bathroom" type="button" onclick="hideProjects('bathroom')" name="button">Bathrooms</button>
+        </li>
+        <li>
+          <button class="project-filters" id="deck" type="button" onclick="hideProjects('deck')" name="button">Decks</button>
+        </li>
+        <li>
+          <button class="project-filters" id="kitchen" type="button" onclick="hideProjects('kitchen')" name="button">Kitchens</button>
+        </li>
+      </ul>
+
+      <div class="projects">
+
+        <div class="project all deck">
+          <a href="#">
+            <img src="photos/hendrixctdeck/finish1.jpg" alt="finished pool deck">
+            <p class="project-title">Hendrix Court</p>
+          </a>
+
+        </div>
+        <div class="project all kitchen">
+          <a href="#">
+            <img src="photos/mountrockykitchen/finish1.jpg" alt="finished modern kitchen">
+            <p class="project-title">Mount Rocky Kitchen</p>
+          </a>
+
+        </div>
+        <div class="project all deck remodel">
+          <a href="#"><img src="photos/additionaberdeenmd/finish1.jpg" alt="finished addition">
+            <p class="project-title">
+              Aberdeen Addition
+            </p>
+          </a>
+
+        </div>
+
+        <div class="project all deck">
+          <a href="#"><img src="photos/unionst/finish1.jpg" alt="finished modern front of a house">
+            <p class="project-title">Union St</p>
+          </a>
+
+        </div>
+        <div class="project all kitchen bathroom deck">
+          <a href="#"><img src="photos/waldenclubhouse/finished1.jpg" alt="finished clubhouse room">
+            <p class="project-title">Walden Clubhouse</p>
+          </a>
+
+        </div>
+        <div class="project all deck">
+          <a href="#"><img src="photos/mtfelixdeck/finish1.jpg" alt="finished modern deck">
+            <p class="project-title">Mount Felix</p>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="content"></div>
+      <img class="footer-logo" src="photos/white-logo.png" alt="">
+      <div class="points-of-contact">
+        <div class="point">
+          <i class="fas fa-phone"></i>
+          <h3 class="point-text">(717)-639-1330</h3>
+        </div>
+        <div class="point">
+          <i class="far fa-envelope"></i>
+          <h3 class="point-text">example@gmail.com</h3>
+        </div>
+        <div class="point">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3 class="point-text">Maryland, USA</h3>
+        </div>
+
+      </div>
+      <p class="copyright">Copyright © 2021 – Lancaster Home Design</p>
+
+    </footer>
+
+  </body>
+</html>
