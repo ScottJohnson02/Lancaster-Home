@@ -357,6 +357,10 @@ h3 {
 /* Styles for previous projects page */
 .new-hero-banner {
   height: 65vh;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.4)), url("photos/previous-projects.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .filters {
@@ -425,4 +429,75 @@ a {
 
 #all {
   color: black;
+}
+
+/* portfolio styles */
+.portfolio-hero-banner {
+  height: 40vh;
+}
+
+.pictures {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2.5vh 2.5vh;
+  text-decoration: none;
+}
+
+.picture img {
+  float: left;
+  width: 500px;
+  height: 375px;
+  object-fit: cover;
+  margin-bottom: 2vh;
+}
+
+.hendrix {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, 0.6)), url("photos/hendrixctdeck/finish1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.rocky {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, 0.6)), url("photos/mountrockykitchen/finish1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.aberdeen {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, 0.6)), url("photos/additionaberdeenmd/finish1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.union {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, 0.6)), url("photos/unionst/finish1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.walden {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, 0.6)), url("photos/waldenclubhouse/finished5.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mt-felix {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, 0.6)), url("photos/mtfelixdeck/finish1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
