@@ -25,7 +25,7 @@
       <nav>
         <ul class="outer-nav" id="nav-id">
           <li class="nav-logo">
-            <a href="/"><img class="header-logo" src="photos/white-logo.png" alt=""></a>
+            <a href="/"><img class="header-logo" src="photos/white-logo.png" alt="go back to home page"></a>
           </li>
           <li>
             <ul class="inner-nav">
@@ -78,23 +78,23 @@
       <form name="contact" method="POST" data-netlify="true" netlify="netlify">
         <div class="row">
           <p>
-            <label>Your First Name:</label>
-            <input type="text" name="first name"/>
+            <label for="first-name">Your First Name:</label>
+            <input id="first-name" type="text" name="first name"/>
           </p>
           <p>
-            <label class="last-name">Your Last Name:</label>
-            <input type="text" name="last name"/>
+            <label for="last-name" class="last-name">Your Last Name:</label>
+            <input id="last-name" type="text" name="last name"/>
           </p>
 
         </div>
         <div class="row">
           <p>
-            <label>Your Email:</label>
-            <input type="email" name="email"/>
+            <label for="email">Your Email:</label>
+            <input id="email" type="email" name="email"/>
           </p>
           <p>
-            <label>Phone Number:</label>
-            <input type="phone" name="phone"/>
+            <label for="phone">Phone Number:</label>
+            <input id="phone" type="phone" name="phone"/>
           </p>
         </div>
 
@@ -107,8 +107,8 @@
           </select>
         </p>
         <p class="project-type">
-          <label>Additional Details:</label>
-          <textarea name="message"></textarea>
+          <label for="message">Additional Details:</label>
+          <textarea id="message" name="message"></textarea>
 
         </p>
         <p class="project-type">
