@@ -30,3 +30,18 @@ function hideProjects(button) {
 
   menu_item.style.color = 'black';
 }
+
+
+function menuToggle() {
+  var menu = document.getElementById("mobile-menu");
+  var element = document.getElementById("nav-id");
+  element.classList.add('scrolled')
+
+  if (menu.style.display == 'flex') {
+    menu.style.display = 'none';
+  } else {
+    menu.style.display = 'flex';
+  }
+  //menu.style.display = 'none';
+
+}

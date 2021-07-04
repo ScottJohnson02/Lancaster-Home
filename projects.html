@@ -25,7 +25,7 @@
       <nav>
         <ul class="outer-nav" id="nav-id">
           <li class="nav-logo">
-            <a href="#"><img class="header-logo" src="photos/white-logo.png" alt=""></a>
+            <a href="/"><img class="header-logo" src="photos/white-logo.png" alt=""></a>
           </li>
           <li>
             <ul class="inner-nav">
@@ -33,113 +33,127 @@
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="">Previous Projects</a>
+                <a href="projects.html">Previous Projects</a>
               </li>
               <li id="Contact-Us-Nav">
-                <a href="#">Contact Us</a>
+                <a href="contact-us.html">Contact Us</a>
               </li>
-            </ul>
+              <li id="icon"><a href="javascript:void(0);" onclick="menuToggle()" <i class="fa fa-bars"></i>
+            </a>
           </li>
-
         </ul>
+      </li>
 
-      </nav>
+    </ul>
+    <ul class="outer-nav" id="mobile-menu">
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="projects.html">Previous Projects</a>
+      </li>
+      <li id="Contact-Us-Nav">
+        <a href="contact-us.html">Contact Us</a>
+      </li>
+    </ul>
 
-    </header>
-    <div class="new-hero-banner hero-banner">
-      <div class="center">
+  </nav>
 
-        <h1>Previous Projects</h1>
-        <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+</header>
+<div class="new-hero-banner hero-banner">
+  <div class="center">
 
-      </div>
+    <h1>Previous Projects</h1>
+    <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+
+  </div>
+
+</div>
+<div class="content">
+  <ul class="filters">
+    <li>
+      <button class="project-filters" id="all" type="button" onclick="hideProjects('all')" name="button">All Works</button>
+    </li>
+    <li>
+      <button class="project-filters" id="bathroom" type="button" onclick="hideProjects('bathroom')" name="button">Bathrooms</button>
+    </li>
+    <li>
+      <button class="project-filters" id="deck" type="button" onclick="hideProjects('deck')" name="button">Decks</button>
+    </li>
+    <li>
+      <button class="project-filters" id="kitchen" type="button" onclick="hideProjects('kitchen')" name="button">Kitchens</button>
+    </li>
+  </ul>
+
+  <div class="projects">
+
+    <div class="project all deck">
+      <a href="hendrix-court.html">
+        <img src="photos/hendrixctdeck/finish1.jpg" alt="finished pool deck">
+        <p class="project-title">Hendrix Court</p>
+      </a>
 
     </div>
-    <div class="content">
-      <ul class="filters">
-        <li>
-          <button class="project-filters" id="all" type="button" onclick="hideProjects('all')" name="button">All Works</button>
-        </li>
-        <li>
-          <button class="project-filters" id="bathroom" type="button" onclick="hideProjects('bathroom')" name="button">Bathrooms</button>
-        </li>
-        <li>
-          <button class="project-filters" id="deck" type="button" onclick="hideProjects('deck')" name="button">Decks</button>
-        </li>
-        <li>
-          <button class="project-filters" id="kitchen" type="button" onclick="hideProjects('kitchen')" name="button">Kitchens</button>
-        </li>
-      </ul>
+    <div class="project all kitchen">
+      <a href="/rocky-kitchen.html">
+        <img src="photos/mountrockykitchen/finish1.jpg" alt="finished modern kitchen">
+        <p class="project-title">Mount Rocky Kitchen</p>
+      </a>
 
-      <div class="projects">
-
-        <div class="project all deck">
-          <a href="hendrix-court.html">
-            <img src="photos/hendrixctdeck/finish1.jpg" alt="finished pool deck">
-            <p class="project-title">Hendrix Court</p>
-          </a>
-
-        </div>
-        <div class="project all kitchen">
-          <a href="/rocky-kitchen.html">
-            <img src="photos/mountrockykitchen/finish1.jpg" alt="finished modern kitchen">
-            <p class="project-title">Mount Rocky Kitchen</p>
-          </a>
-
-        </div>
-        <div class="project all deck remodel">
-          <a href="aberdeen-addition.html"><img src="photos/additionaberdeenmd/finish1.jpg" alt="finished addition">
-            <p class="project-title">
-              Aberdeen Addition
-            </p>
-          </a>
-
-        </div>
-
-        <div class="project all deck">
-          <a href="union-st.html"><img src="photos/unionst/finish1.jpg" alt="finished modern front of a house">
-            <p class="project-title">Union St</p>
-          </a>
-
-        </div>
-        <div class="project all kitchen bathroom deck">
-          <a href="walden-clubhouse.html"><img src="photos/waldenclubhouse/finished1.jpg" alt="finished clubhouse room">
-            <p class="project-title">Walden Clubhouse</p>
-          </a>
-
-        </div>
-        <div class="project all deck">
-          <a href="mt-felixdeck.html"><img src="photos/mtfelixdeck/finish1.jpg" alt="finished modern deck">
-            <p class="project-title">Mount Felix</p>
-          </a>
-
-        </div>
-
-      </div>
+    </div>
+    <div class="project all deck remodel">
+      <a href="aberdeen-addition.html"><img src="photos/additionaberdeenmd/finish1.jpg" alt="finished addition">
+        <p class="project-title">
+          Aberdeen Addition
+        </p>
+      </a>
 
     </div>
 
-    <footer>
-      <div class="content"></div>
-      <img class="footer-logo" src="photos/white-logo.png" alt="">
-      <div class="points-of-contact">
-        <div class="point">
-          <i class="fas fa-phone"></i>
-          <h3 class="point-text">(717)-639-1330</h3>
-        </div>
-        <div class="point">
-          <i class="far fa-envelope"></i>
-          <h3 class="point-text">example@gmail.com</h3>
-        </div>
-        <div class="point">
-          <i class="fas fa-map-marker-alt"></i>
-          <h3 class="point-text">Maryland, USA</h3>
-        </div>
+    <div class="project all deck">
+      <a href="union-st.html"><img src="photos/unionst/finish1.jpg" alt="finished modern front of a house">
+        <p class="project-title">Union St</p>
+      </a>
 
-      </div>
-      <p class="copyright">Copyright © 2021 – Lancaster Home Design</p>
+    </div>
+    <div class="project all kitchen bathroom deck">
+      <a href="walden-clubhouse.html"><img src="photos/waldenclubhouse/finished1.jpg" alt="finished clubhouse room">
+        <p class="project-title">Walden Clubhouse</p>
+      </a>
 
-    </footer>
+    </div>
+    <div class="project all deck">
+      <a href="mt-felixdeck.html"><img src="photos/mtfelixdeck/finish1.jpg" alt="finished modern deck">
+        <p class="project-title">Mount Felix</p>
+      </a>
 
-  </body>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <div class="content"></div>
+  <img class="footer-logo" src="photos/white-logo.png" alt="">
+  <div class="points-of-contact">
+    <div class="point">
+      <i class="fas fa-phone"></i>
+      <h3 class="point-text">(717)-639-1330</h3>
+    </div>
+    <div class="point">
+      <i class="far fa-envelope"></i>
+      <h3 class="point-text">example@gmail.com</h3>
+    </div>
+    <div class="point">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3 class="point-text">Maryland, USA</h3>
+    </div>
+
+  </div>
+  <p class="copyright">Copyright © 2021 – Lancaster Home Design</p>
+
+</footer>
+
+</body>
 </html>
