@@ -137,7 +137,7 @@ p {
 
 .subheading {
   color: var(--white-color);
-  font-size: 2vh;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -544,6 +544,13 @@ a {
 }
 
 /* Contact Page */
+.contact-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, 0.6)), url("photos/contact.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .contact-us {
   display: flex;
   justify-content: space-around;
@@ -642,6 +649,11 @@ form {
 @media (max-width: 780px) {
   .inner-nav li {
     margin-right: .5vh;
+  }
+
+  .new-hero-banner div h1 {
+    padding-top: 10vh;
+    font-size: 5rem;
   }
 }
 
@@ -769,6 +781,11 @@ form {
 
   h1 {
     font-size: 3.5rem;
+  }
+
+  .new-hero-banner div h1 {
+    padding-top: 10vh;
+    font-size: 3.3rem;
   }
 
   .subheading {
