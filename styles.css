@@ -329,15 +329,15 @@ p {
 }
 
 .port2 {
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(photos/additionaberdeenmd/finish1.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(photos/covedeck/finish1.jpg)
 }
 
 .port3 {
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(photos/mountrockykitchen/finish1.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(photos/washingtondeck/finish1.jpg)
 }
 
 .port4 {
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(photos/waldenclubhouse/finished1.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(photos/cherrybasement/finish2.jpg)
 }
 
 footer {
@@ -462,7 +462,8 @@ button {
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
+  color: inherit;
 }
 
 #all {
@@ -533,6 +534,55 @@ a {
 
 .mt-felix {
   background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/mtfelixdeck/finish1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.covedeck {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/covedeck/finish1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.waterdeck {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/watersdeck/finish1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.cherrybasement {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/cherrybasement/finish2.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.nelsonmill {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/nelsonmillroof/finish1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.greenst {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/greenst/finish2.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.preistfordrails {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/preistfordrails/finish2.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.washingtondeck {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/washingtondeck/finish1.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center
