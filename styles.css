@@ -143,7 +143,7 @@ p {
 .hero-banner {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/hero-banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .75)), url(photos/covedeck/finish1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -588,11 +588,18 @@ a {
   background-position: center
 }
 
-.contact-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/contact.JPG);
+.baumgardnerbath {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/baumgardnerbath/finish1.JPG);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center
+  background-position: center;
+}
+
+.contact-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/washingtondeck/finish5.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .contact-us {
