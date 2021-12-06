@@ -595,6 +595,20 @@ a {
   background-position: center;
 }
 
+.amazon {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/amazon/amazon1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.patterson {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/patterson-roof/roof5.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
 .contact-banner {
   background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/washingtondeck/finish5.JPG);
   background-repeat: no-repeat;
