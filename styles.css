@@ -337,7 +337,7 @@ p {
 }
 
 .port4 {
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(photos/cherrybasement/finish2.jpg)
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(photos/whitefieldporch/pic1\ \(2\).jpg)
 }
 
 footer {
@@ -527,6 +527,24 @@ a {
 
 .rocky {
   background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/mountrockykitchen/finish1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+.kitchenette {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/kitchenette/pic1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+.whitefield {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/whitefieldporch/pic1\ \(2\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+.harmony {
+  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .6)), url(photos/harmony/pic1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center
